@@ -72,29 +72,29 @@ Build a CRUD client with React.js 16, react-router v4 and Bootstrap 4.
       * [x] After successful creation:
         * [x] Redirect to ViewProduct page of created product
 * [ ] Update a single Product
-  * [ ] Create Edit Product component
-  * [ ] Add <Route></Route> to switch at /products/:id/edit path
-  * [ ] Add <Link> in Product component to Edit Product by ID
-  * [ ] Set initial state
+  * [x] Create Edit Product component
+  * [x] Add <Route></Route> to switch at /products/:id/edit path
+  * [x] Add <Link> in Product component to Edit Product by ID
+  * [x] Set initial state
     * isLoading, product, isEditing
-  * [ ] In componentDidMount
-    * [ ] get id from route params
-    * [ ] GET /api/v1/product/:id
-    * [ ] setState
-  * [ ] Show Product Form component in render
-    * [ ] pass props
-  * [ ] create onFormSubmitted listener
-    * [ ] PUT /api/v1/products/:id
-      * [ ] setState isEditing
-      * [ ] stringify body
-      * [ ] content-type header
-      * [ ] After successful update:
-        * [ ] Redirect to ViewProduct page of updated product
-* [ ] Delete a Product
-  * [ ] Add a delete button to the ViewProduct page
-    * [ ] When the delete button is clicked
-      * [ ] DELETE /products/:id
-      * [ ] Successful deletion should redirect to /products
+  * [x] In componentDidMount
+    * [x] get id from route params
+    * [x] GET /api/v1/product/:id
+    * [x] setState
+  * [x] Show Product Form component in render
+    * [x] pass props
+  * [x] create onFormSubmitted listener
+    * [x] PUT /api/v1/products/:id
+      * [x] setState isEditing
+      * [x] stringify body
+      * [x] content-type header
+      * [x] After successful update:
+        * [x] Redirect to ViewProduct page of updated product
+* [x] Delete a Product
+  * [x] Add a delete button to the ViewProduct page
+    * [x] When the delete button is clicked
+      * [x] DELETE /products/:id
+      * [x] Successful deletion should redirect to /products
 * [ ] Deploy to now
   * [ ] create now.json in public folder
     * [ ] rewrite /products/* to index.html
