@@ -96,8 +96,8 @@ Build a CRUD client with React.js 16, react-router v4 and Bootstrap 4.
       * [x] DELETE /products/:id
       * [x] Successful deletion should redirect to /products
 * [ ] Deploy to now
-  * [ ] create now.json in public folder
-    * [ ] rewrite /products/* to index.html
+  * [x] create now.json in public folder
+    * [x] rewrite /products/* to index.html
   * [ ] yarn build
   * [ ] cd into build folder
     * [ ] now
