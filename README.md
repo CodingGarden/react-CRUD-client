@@ -53,24 +53,24 @@ Build a CRUD client with React.js 16, react-router v4 and Bootstrap 4.
   * [x] Show product in render
     * [x] Show a Product component
       * [x] Instead of a View button show an Edit button (props)
-* [ ] Create a single Product
+* [x] Create a single Product
   * [x] Create CreateProduct component
   * [x] Add <Route></Route> to switch at /products/create path
   * [x] Add <Link> in NavBar to Create a Product
   * [x] Set initial state
     * product, creating
-  * [ ] Create Product Form Component
-    * [ ] props - product, onFormSubmitted
+  * [x] Create Product Form Component
+    * [x] props - product, onFormSubmitted
     * [x] change listener for all form inputs
-    * [ ] submit listener on form
-      * [ ] validate all required fields before calling onFormSubmitted prop
-  * [ ] create onFormSubmitted listener
-    * [ ] POST /api/v1/product
-      * [ ] setState creating
-      * [ ] stringify body
-      * [ ] content-type header
-      * [ ] After successful creation:
-        * [ ] Redirect to ViewProduct page of created product
+    * [x] submit listener on form
+      * [x] validate all required fields before calling onFormSubmitted prop
+  * [x] create onFormSubmitted listener
+    * [x] POST /api/v1/product
+      * [x] setState creating
+      * [x] stringify body
+      * [x] content-type header
+      * [x] After successful creation:
+        * [x] Redirect to ViewProduct page of created product
 * [ ] Update a single Product
   * [ ] Create Edit Product component
   * [ ] Add <Route></Route> to switch at /products/:id/edit path
