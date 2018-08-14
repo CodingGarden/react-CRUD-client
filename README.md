@@ -20,26 +20,26 @@ Build a CRUD client with React.js 16, react-router v4 and Bootstrap 4.
   * [x] Landing Page Component
     * [x] Jumbotron
     * [x] View Products Button
-* [ ] Setup react-router
-  * [ ] yarn add react-router
-  * [ ] Update main.js render to include Router
-  * [ ] Add a <Switch></Switch> to App.js 
-  * [ ] Add <Route></Route> to switch at / path (exact) with the LandingPage component
+* [x] Setup react-router
+  * [x] yarn add react-router-dom
+  * [x] Update index.js render to include Router
+  * [x] Add a <Switch></Switch> to App.js 
+  * [x] Add <Route></Route> to switch at / path (exact) with the LandingPage component
 * [ ] List all Products
-  * [ ] Add <Link> in Landing Page to Products
-  * [ ] Create Products component
-  * [ ] Add <Route></Route> to switch at /products path
-  * [ ] Set initial state
+  * [x] Add <Link> in Landing Page to Products
+  * [x] Create Products component
+  * [x] Add <Route></Route> to switch at /products path
+  * [x] Set initial state
     * isLoading, products
-  * [ ] In componentDidMount
-    * [ ] GET /api/v1/products
-    * [ ] setState
-  * [ ] Show products in render
-    * [ ] map over products in state
-    * [ ] return an element for each product
-      * [ ] View button to go to ViewProduct page
-* [ ] Refactor product element to a Product component
-* [ ] Refactor GET /api/v1/products to an API file
+  * [x] In componentDidMount
+    * [x] GET /api/v1/products
+    * [x] setState
+  * [x] Show products in render
+    * [x] map over products in state
+    * [x] return an element for each product
+      * [x] View button to go to ViewProduct page
+* [x] Refactor product element to a Product component
+* [x] Refactor GET /api/v1/products to an API file
 * [ ] List a single Product
   * [ ] Create ViewProduct component
   * [ ] Add <Route></Route> to switch at /products/:id path
