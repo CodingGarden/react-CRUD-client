@@ -23,7 +23,6 @@ class Products extends Component {
   render() {
     return (
       <div>
-        <h1>Products Page</h1>
         { this.state.isLoading ?
           <h2>Loading products...</h2> :
           <div className="row">

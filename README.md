@@ -40,28 +40,28 @@ Build a CRUD client with React.js 16, react-router v4 and Bootstrap 4.
       * [x] View button to go to ViewProduct page
 * [x] Refactor product element to a Product component
 * [x] Refactor GET /api/v1/products to an API file
-* [ ] List a single Product
-  * [ ] Create ViewProduct component
-  * [ ] Add <Route></Route> to switch at /products/:id path
-  * [ ] Add <Link> in Product component to ViewProduct by ID
-  * [ ] Set initial state
+* [x] List a single Product
+  * [x] Create ViewProduct component
+  * [x] Add <Route></Route> to switch at /products/:id path
+  * [x] Add <Link> in Product component to ViewProduct by ID
+  * [x] Set initial state
     * isLoading, product
-  * [ ] In componentDidMount
-    * [ ] get id from route params
-    * [ ] GET /api/v1/product/:id
-    * [ ] setState
-  * [ ] Show product in render
-    * [ ] Show a Product component
-      * [ ] Instead of a View button show an Edit button (props)
+  * [x] In componentDidMount
+    * [x] get id from route params
+    * [x] GET /api/v1/product/:id
+    * [x] setState
+  * [x] Show product in render
+    * [x] Show a Product component
+      * [x] Instead of a View button show an Edit button (props)
 * [ ] Create a single Product
-  * [ ] Create Product component
-  * [ ] Add <Route></Route> to switch at /products/create path
-  * [ ] Add <Link> in NavBar to Create a Product
-  * [ ] Set initial state
+  * [x] Create CreateProduct component
+  * [x] Add <Route></Route> to switch at /products/create path
+  * [x] Add <Link> in NavBar to Create a Product
+  * [x] Set initial state
     * product, creating
   * [ ] Create Product Form Component
     * [ ] props - product, onFormSubmitted
-    * [ ] change listener for all form inputs
+    * [x] change listener for all form inputs
     * [ ] submit listener on form
       * [ ] validate all required fields before calling onFormSubmitted prop
   * [ ] create onFormSubmitted listener
